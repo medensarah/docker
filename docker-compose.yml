@@ -4,6 +4,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
+    image: meden-php-apache
     volumes:
       - ./src:/var/www/html/
     ports:
